@@ -27,6 +27,12 @@ function macumba(){
             if(value>maxValue){
                 maxValue = value
             }
+            
+        }
+    }
+
+    for(let i=0;i<=500;i++){
+        for(let j=0;j<=500;j++){
             console.log(value)
             values[i][j] = value
             ctx.fillStyle = "rgba("+value+","+value+","+value+","+255+")";
