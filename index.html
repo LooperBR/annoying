@@ -15,10 +15,12 @@
             <button onclick="stop()">stop</button>
             <button onclick="continueFlies()">continue</button>
             <button onclick="step()">step</button>
-            <button onclick="test()">test</button>
-            <input type="text" id="weigth" placeholder="weigth">
+            <input type="text" id="w" placeholder="weigth">
             <input type="text" id="c1" placeholder="c1">
             <input type="text" id="c2" placeholder="c2">
+            <button onclick="updateWeight()">change weights</button>
+            <p id="globalBestManual">Melhor ponto encontrado por busca exaustiva:</p>
+            <p id="globalBest">Melhor ponto encontrado por enxame de particulas:</p>
         </span>
     </span>
     <script src="index.js"></script>
